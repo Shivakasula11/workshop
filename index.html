@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #ii{
+        width: 97vw;
+        display: flex;;
+        justify-content: center;
+    }
+    button{
+            padding: 10px 30px;
+            border-radius: 50px;
+            background-color: chartreuse;
+            border: none;
+            color: #ffff;
+            margin-bottom: 20px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+   
+    
+    <form>
+    <input id="search" type="text">
+    <button>search</button>
+</form>
+<script>
+   let obj= [
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "iphone",
+    image:"https://inventstore.in/wp-content/uploads/2023/04/Starlight-1024x1024.webp"
+
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "samsung",
+    image:"https://www.myg.in/images/thumbnails/624/460/detailed/51/tg1.jpg"
+  },
+  {
+    "userId": 1,
+    "id": 3,
+   "title":"jio",
+   image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1UBCk-he82i_wdpSoV-WH854L0xakHqtRw&s"
+
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "oneplus",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4XSlTIBFI0bwQDWUvoH4KEZzj2hPHVTtbag&s"
+
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "oppo",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBE3n-nynkr2_2SLA7m5Pp1PgQrb4_9eLjg&s"
+  },
+   
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "vivo",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBE3n-nynkr2_2SLA7m5Pp1PgQrb4_9eLjg&s"
+  },
+   
+  {
+    "userId": 1,
+    "id": 7,
+    "title": "realme",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBE3n-nynkr2_2SLA7m5Pp1PgQrb4_9eLjg&s"
+  },
+   
+  {
+    "userId": 1,
+    "id": 8,
+    "title": "huaweai",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBE3n-nynkr2_2SLA7m5Pp1PgQrb4_9eLjg&s"
+  },
+ 
+   
+]
+let btn=document.getElementById("bt");
+let mm=document.createElement("div");
+document.body.appendChild(mm);
+mm.style.display="flex";
+mm.style.flexWrap="wrap";
+mm.style.gap="10px";
+mm.style.justifyContent="center"
+count=0;
+
+</script>
+</body>
+</html>
